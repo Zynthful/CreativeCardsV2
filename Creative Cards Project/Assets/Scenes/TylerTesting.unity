@@ -643,10 +643,10 @@ RectTransform:
   m_Father: {fileID: 1486397131}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 905.2, y: -18.6}
-  m_SizeDelta: {x: 86.83, y: 30}
+  m_AnchorMin: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -142.90002, y: -15}
+  m_SizeDelta: {x: 86.829956, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &68971839
 MonoBehaviour:
@@ -1714,7 +1714,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: f90c9895734594d46ae9b9679265ab7e, type: 2}
+      objectReference: {fileID: 2100000, guid: 0562e4640f43e904281c202e4abe03c6, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ffd2e7e8c31af5748b1486d776c056ae, type: 3}
 --- !u!4 &259190170 stripped
@@ -2592,12 +2592,12 @@ GameObject:
   - component: {fileID: 436926287}
   - component: {fileID: 436926286}
   m_Layer: 0
-  m_Name: BG
+  m_Name: HitFlash
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &436926286
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4027,7 +4027,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: f90c9895734594d46ae9b9679265ab7e, type: 2}
+      objectReference: {fileID: 2100000, guid: 0562e4640f43e904281c202e4abe03c6, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ffd2e7e8c31af5748b1486d776c056ae, type: 3}
 --- !u!4 &675171781 stripped
@@ -4601,7 +4601,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: f90c9895734594d46ae9b9679265ab7e, type: 2}
+      objectReference: {fileID: 2100000, guid: 0562e4640f43e904281c202e4abe03c6, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ffd2e7e8c31af5748b1486d776c056ae, type: 3}
 --- !u!4 &758294584 stripped
@@ -4696,7 +4696,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: f90c9895734594d46ae9b9679265ab7e, type: 2}
+      objectReference: {fileID: 2100000, guid: ab5f452047c2b1543b72ad5f1c300219, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ffd2e7e8c31af5748b1486d776c056ae, type: 3}
 --- !u!4 &763175723 stripped
@@ -4886,7 +4886,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: f90c9895734594d46ae9b9679265ab7e, type: 2}
+      objectReference: {fileID: 2100000, guid: e587a18462961ef4e924757bcba18284, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ffd2e7e8c31af5748b1486d776c056ae, type: 3}
 --- !u!4 &804796683 stripped
@@ -5214,7 +5214,7 @@ GameObject:
   - component: {fileID: 871487905}
   - component: {fileID: 871487904}
   m_Layer: 0
-  m_Name: Image
+  m_Name: Flash
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5259,7 +5259,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: b8a298ebae0c91d44b0188559f6c4769, type: 3}
+  m_Sprite: {fileID: 0}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -5500,10 +5500,10 @@ RectTransform:
   m_Father: {fileID: 1291606590}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 275, y: 233}
-  m_SizeDelta: {x: 337.1, y: 20}
+  m_AnchorMin: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -299, y: -55.199997}
+  m_SizeDelta: {x: 337.09998, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &921315430
 MonoBehaviour:
@@ -6262,7 +6262,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: f90c9895734594d46ae9b9679265ab7e, type: 2}
+      objectReference: {fileID: 2100000, guid: ab5f452047c2b1543b72ad5f1c300219, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ffd2e7e8c31af5748b1486d776c056ae, type: 3}
 --- !u!4 &1028057639 stripped
@@ -7258,7 +7258,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: d53111b59aba8b84d9dec76e0856664e, type: 2}
+  - {fileID: 2100000, guid: dc9bf17a133b58a47a1e53c9a2bd4289, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -7295,7 +7295,7 @@ Transform:
   m_GameObject: {fileID: 1106390031}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 2.2, y: -0.37, z: 3.74}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.2688011, y: 1.2688011, z: 1.2688011}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 7
@@ -7711,6 +7711,7 @@ MonoBehaviour:
   Move3Damage: 60
   EnemyHealth: 0
   CamRig: {fileID: 1815147545}
+  hitFlash: {fileID: 436926288}
 --- !u!4 &1164315358
 Transform:
   m_ObjectHideFlags: 0
@@ -9091,7 +9092,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: f90c9895734594d46ae9b9679265ab7e, type: 2}
+      objectReference: {fileID: 2100000, guid: e587a18462961ef4e924757bcba18284, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ffd2e7e8c31af5748b1486d776c056ae, type: 3}
 --- !u!4 &1586515489 stripped
@@ -9626,9 +9627,9 @@ RectTransform:
   m_Father: {fileID: 1486397131}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 427.7, y: 69.8}
+  m_AnchorMin: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -146.32, y: -222}
   m_SizeDelta: {x: 80, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1664100045
@@ -10740,10 +10741,10 @@ RectTransform:
   m_Father: {fileID: 1486397131}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 428, y: 169}
-  m_SizeDelta: {x: 160, y: 75.8}
+  m_AnchorMin: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -144, y: -116}
+  m_SizeDelta: {x: 160, y: 75.79999}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1898780269
 MonoBehaviour:
@@ -10920,9 +10921,9 @@ RectTransform:
   m_Father: {fileID: 1291606590}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 762, y: -26}
+  m_AnchorMin: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -386, y: -26}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1922595089

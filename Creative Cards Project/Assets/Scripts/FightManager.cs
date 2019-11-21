@@ -19,6 +19,8 @@ public class FightManager : MonoBehaviour
 
     bool IsCoRunning;
 
+    public Canvas hitFlash;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -38,7 +40,9 @@ public class FightManager : MonoBehaviour
         if (EnemyHealth <= 0) 
         {
             CamRig.GetComponent<EventRandomizer>().EndEvent();
+            hitFlash.enabled = true;
         }
+        hitFlash.enabled = false;
     }
 
 
@@ -46,6 +50,7 @@ public class FightManager : MonoBehaviour
     {
         yield return new WaitForSeconds(2);
         EnemyTurn();
+        
     }
     
     
@@ -60,6 +65,7 @@ public class FightManager : MonoBehaviour
             GameManagerOBJ.GetComponent<GameManager>().Demons -= Move1Damage;
             IsPlayersTurn = true;
             IsCoRunning = false;
+            hitFlash.enabled = true;
         }
 
         if (Move > 0.6f && Move <= 0.9f)
@@ -67,6 +73,7 @@ public class FightManager : MonoBehaviour
             GameManagerOBJ.GetComponent<GameManager>().Demons -= Move2Damage;
             IsPlayersTurn = true;
             IsCoRunning = false;
+            hitFlash.enabled = true;
         }
 
         if (Move > 0.9f)
@@ -74,6 +81,7 @@ public class FightManager : MonoBehaviour
             GameManagerOBJ.GetComponent<GameManager>().Demons -= Move3Damage;
             IsPlayersTurn = true;
             IsCoRunning = false;
+            hitFlash.enabled = true;
         }
     }
 }
