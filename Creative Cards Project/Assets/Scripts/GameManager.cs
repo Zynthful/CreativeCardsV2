@@ -17,6 +17,10 @@ public class GameManager : MonoBehaviour
 
     public Canvas GameOverCan;
     public Canvas WinCan;
+
+    [SerializeField]
+    private GameObject gameOverGO;
+    private Coroutine gameOverCoroutine;
     // Start is called before the first frame update
     void Start()
     {
@@ -25,6 +29,8 @@ public class GameManager : MonoBehaviour
         Demons = StartingDemons;
         GameOverCan.enabled = false;
         WinCan.enabled = false;
+
+        gameOverGO.SetActive(false);
     }
 
     // Update is called once per frame
@@ -52,9 +58,9 @@ public class GameManager : MonoBehaviour
             WinCan.enabled = true;
         }
 
-        if (DaysPassed > 7)
+        if (DaysPassed > 29)
         {
-            GameOverCan.enabled = true;
+            if (gameOverCoroutine == null) gameOverCoroutine = StartCoroutine(GameOver());
         }
 
     }
@@ -71,4 +77,11 @@ public class GameManager : MonoBehaviour
         DaytimeTimer = DaytimeLength;
         DaysPassed += 1;
     } 
+
+    private IEnumerator GameOver()
+    {
+        gameOverGO.SetActive(true);
+        yield return new WaitForSeconds(2.5f);
+        SceneManager.LoadScene("GameOverMenu");
+    }
 }

@@ -13,17 +13,39 @@ MonoBehaviour:
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
   EditorBanks:
-  - {fileID: 114954884914516680}
-  - {fileID: 114188964816847516}
+  - {fileID: 114071050090099540}
+  - {fileID: 114698039332556826}
   EditorEvents:
-  - {fileID: 114418261062732038}
+  - {fileID: 114712982499304606}
+  - {fileID: 114682116188156140}
+  - {fileID: 114964772263435824}
   EditorParameters: []
   MasterBanks:
-  - {fileID: 114188964816847516}
+  - {fileID: 114698039332556826}
   StringsBanks:
-  - {fileID: 114954884914516680}
-  stringsBankWriteTime: 637099450723287353
+  - {fileID: 114071050090099540}
+  stringsBankWriteTime: 637099685497353424
   cacheVersion: 3
+--- !u!114 &114071050090099540
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: D:\JCWorkspace 21-11-2019\Music\Build\Desktop\Master.strings.bank
+  SubDir: 
+  lastModified: 637099685497353424
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 840
+  Exists: 1
 --- !u!114 &114103434414816862
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -112,6 +134,28 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 119709
+--- !u!114 &114360206599095906
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/RegBattle
+  m_EditorClassIdentifier: 
+  Path: event:/Music/RegBattle
+  guid: e872968adfbb5340a3e5d70e06707d4c
+  Banks: []
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 118275
 --- !u!114 &114418261062732038
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -155,6 +199,72 @@ MonoBehaviour:
   - Name: Desktop
     Value: 794
   Exists: 1
+--- !u!114 &114682116188156140
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambience/GardenAmb
+  m_EditorClassIdentifier: 
+  Path: event:/Ambience/GardenAmb
+  guid: 6b1b02e98707da43b79a1cc50bbcd334
+  Banks:
+  - {fileID: 114698039332556826}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 7000
+--- !u!114 &114698039332556826
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: D:\JCWorkspace 21-11-2019\Music\Build\Desktop\Master.bank
+  SubDir: 
+  lastModified: 637099685497303304
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 7696416
+  Exists: 1
+--- !u!114 &114712982499304606
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Punches
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Punches
+  guid: ab15e2a5dfb58f48bcfa483abc7d5351
+  Banks:
+  - {fileID: 114698039332556826}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 6500
 --- !u!114 &114719172061261718
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -177,6 +287,29 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 118275
+--- !u!114 &114831591221862846
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/BossBattle
+  m_EditorClassIdentifier: 
+  Path: event:/Music/BossBattle
+  guid: daa6acf53d3cc84d8a257aaa3a163330
+  Banks:
+  - {fileID: 114698039332556826}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 242942
 --- !u!114 &114871651170879126
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -217,3 +350,26 @@ MonoBehaviour:
   - Name: Desktop
     Value: 738
   Exists: 1
+--- !u!114 &114964772263435824
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/Battle
+  m_EditorClassIdentifier: 
+  Path: event:/Music/Battle
+  guid: daa6acf53d3cc84d8a257aaa3a163330
+  Banks:
+  - {fileID: 114698039332556826}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 242942
