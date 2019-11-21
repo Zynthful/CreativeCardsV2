@@ -13,7 +13,7 @@ public class CameraMovement : MonoBehaviour
     // Update is called once per frame
     public void Update()
     {
-        transform.Translate(Input.GetAxis("Horizontal") * Time.deltaTime, 0f, Input.GetAxis("Vertical") * Time.deltaTime);
+        transform.Translate(Input.GetAxis("Horizontal")* -1 * Time.deltaTime, 0f, Input.GetAxis("Vertical") *-1 * Time.deltaTime);
     }
 
 }
