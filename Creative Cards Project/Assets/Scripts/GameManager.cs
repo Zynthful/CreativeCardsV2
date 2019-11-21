@@ -52,6 +52,11 @@ public class GameManager : MonoBehaviour
             WinCan.enabled = true;
         }
 
+        if (DaysPassed > 7)
+        {
+            GameOverCan.enabled = true;
+        }
+
     }
 
     void DaytimeCountdown() 
