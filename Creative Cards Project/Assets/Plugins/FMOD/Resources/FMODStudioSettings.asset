@@ -15,9 +15,9 @@ MonoBehaviour:
   SwitchSettingsMigration: 1
   HasSourceProject: 1
   HasPlatforms: 1
-  sourceProjectPath: D:\JCWorkspace 21-11-2019\CreativeCards\Music\Music.fspro
-  SourceProjectPathUnformatted: D:\JCWorkspace 21-11-2019\CreativeCards\Music\Music.fspro
-  SourceBankPathUnformatted: D:\JCWorkspace 21-11-2019\CreativeCards\Music\Build
+  sourceProjectPath: D:\JCWorkspace 21-11-2019\CreativeCardsV2\Music\Music.fspro
+  SourceProjectPathUnformatted: D:\JCWorkspace 21-11-2019\CreativeCardsV2\Music\Music.fspro
+  SourceBankPathUnformatted: D:\JCWorkspace 21-11-2019\CreativeCardsV2\Music\Build
   AutomaticEventLoading: 1
   BankLoadType: 0
   AutomaticSampleLoading: 0
@@ -76,7 +76,8 @@ MonoBehaviour:
   - Platform: 20
     Value: 32
   Plugins: []
-  MasterBanks: []
+  MasterBanks:
+  - Master
   Banks: []
   BanksToLoad: []
   LiveUpdatePort: 9264

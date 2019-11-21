@@ -24,7 +24,7 @@ MonoBehaviour:
   m_MinSize: {x: 681, y: 498}
   m_MaxSize: {x: 14004, y: 14048}
   vertical: 0
-  controlID: 13768
+  controlID: 3138
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -129,7 +129,7 @@ MonoBehaviour:
   m_MinSize: {x: 404, y: 498}
   m_MaxSize: {x: 10002, y: 14048}
   vertical: 1
-  controlID: 13769
+  controlID: 3139
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -154,7 +154,7 @@ MonoBehaviour:
   m_MinSize: {x: 404, y: 224}
   m_MaxSize: {x: 8004, y: 4024}
   vertical: 0
-  controlID: 13770
+  controlID: 3140
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -174,8 +174,8 @@ MonoBehaviour:
     y: 0
     width: 379
     height: 572
-  m_MinSize: {x: 202, y: 224}
-  m_MaxSize: {x: 4002, y: 4024}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 6}
   m_Panes:
   - {fileID: 6}
@@ -212,7 +212,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 40f6ffffe8f7ffffae370000f63700003638000084380000f6380000383900005439000092390000603a0000
+      m_ExpandedIDs: 84efffff52faffff163700005c370000704000008c400000aa400000ca400000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -296,9 +296,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 616.1791, y: 265.83014, z: -4.5}
+    m_Target: {x: 605.9673, y: 274.24258, z: -5.178393}
     speed: 2
-    m_Value: {x: 616.1791, y: 265.83014, z: -4.5}
+    m_Value: {x: 605.9673, y: 274.24258, z: -5.178393}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -330,9 +330,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 677.4805
+    m_Target: 701.844
     speed: 2
-    m_Value: 677.4805
+    m_Value: 701.844
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -435,20 +435,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Prefabs
+    - Assets/MenuArt/Scripts/SinsAddMove
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Prefabs
+  - Assets/MenuArt/Scripts/SinsAddMove
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: D:\CreativeCardsV2\Creative Cards Project
+  m_LastProjectPath: D:\JCWorkspace 21-11-2019\CreativeCardsV2\Creative Cards Project
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 130}
-    m_SelectedIDs: e2350000
-    m_LastClickedID: 13794
-    m_ExpandedIDs: 000000001c3100006631000072320000ee3200005c33000000ca9a3b
+    scrollPos: {x: 0, y: 79}
+    m_SelectedIDs: ac300000
+    m_LastClickedID: 12460
+    m_ExpandedIDs: 000000007e300000b6300000c8300000d4300000e031000066320000da3200008e36000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -476,7 +476,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000001c3100006631000072320000ee3200005c33000000ca9a3b
+    m_ExpandedIDs: 000000007e300000c8300000d4300000e031000066320000da32000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -501,8 +501,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 06330000
-    m_LastClickedInstanceID: 13062
+    m_SelectedInstanceIDs: ca400000
+    m_LastClickedInstanceID: 16586
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000e83300006a300000
     m_RenameOverlay:
@@ -530,7 +530,7 @@ MonoBehaviour:
     m_NewAssetIndexInList: -1
     m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 64
-  m_DirectoriesAreaWidth: 256
+  m_DirectoriesAreaWidth: 300
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
