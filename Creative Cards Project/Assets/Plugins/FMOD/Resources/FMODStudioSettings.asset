@@ -15,9 +15,10 @@ MonoBehaviour:
   SwitchSettingsMigration: 1
   HasSourceProject: 1
   HasPlatforms: 1
-  sourceProjectPath: D:\JCWorkspace 21-11-2019\Music\Music.fspro
-  SourceProjectPathUnformatted: D:\JCWorkspace 21-11-2019\Music\Music.fspro
-  SourceBankPathUnformatted: D:\JCWorkspace 21-11-2019\Music\Build
+  sourceProjectPath: C:\Users\Jamie Carnell\Downloads\Creativity Cards Workspace\CreativeCardsV2\Music\Music.fspro
+  SourceProjectPathUnformatted: C:\Users\Jamie Carnell\Downloads\Creativity Cards
+    Workspace\CreativeCardsV2\Music\Music.fspro
+  SourceBankPathUnformatted: C:\Users\Jamie Carnell\Downloads\Creativity Cards Workspace\CreativeCardsV2\Music\Build
   AutomaticEventLoading: 1
   BankLoadType: 0
   AutomaticSampleLoading: 0
