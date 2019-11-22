@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{8a6cf8b3-54dd-4181-9794-aed041a00983}">
+		<property name="assetPath">
+			<value>JamieCarnell_Music_BossBattle_ElecGuitars.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>90.103628117913829</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{ae917da8-1afb-466d-b7e3-aa5bfe56bca3}</destination>
+		</relationship>
+	</object>
+</objects>
